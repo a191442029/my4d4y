@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated": "2026-05-16",
+  "forums": [
+    {
+      "domain": "bbs.fobshanghai.com",
+      "name": "福步外贸论坛",
+      "system": "discuz",
+      "encoding": "gbk",
+      "baseUrl": "https://bbs.fobshanghai.com/"
+    },
+    {
+      "domain": "bbs.chiphell.com",
+      "name": "CHIPHELL",
+      "system": "discuz",
+      "encoding": "utf-8",
+      "baseUrl": "https://www.chiphell.com/"
+    }
+  ]
+}
+

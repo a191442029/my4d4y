@@ -7,7 +7,26 @@
       "name": "福步外贸论坛",
       "system": "discuz",
       "encoding": "gbk",
-      "baseUrl": "https://bbs.fobshanghai.com/"
+      "baseUrl": "https://bbs.fobshanghai.com/",
+      "searchUrl": "https://bbs.fobshanghai.com/search.php",
+      "messagesUrl": "https://bbs.fobshanghai.com/home.php?mod=space&do=pm",
+      "myThreadsUrl": "https://bbs.fobshanghai.com/home.php?mod=space&do=thread&view=me",
+      "myRepliesUrl": "https://bbs.fobshanghai.com/home.php?mod=space&do=reply&view=me",
+      "favoritesUrl": "https://bbs.fobshanghai.com/home.php?mod=space&do=favorite&view=me",
+      "forums": [
+        { "fid": "2", "name": "出口交流", "url": "https://bbs.fobshanghai.com/forum-2-1.html", "groupName": "外贸业务交流" },
+        { "fid": "5", "name": "外贸单证", "url": "https://bbs.fobshanghai.com/forum-5-1.html", "groupName": "外贸业务交流" },
+        { "fid": "8", "name": "报关报检", "url": "https://bbs.fobshanghai.com/forum-8-1.html", "groupName": "外贸业务交流" },
+        { "fid": "3", "name": "外贸SOHO", "url": "https://bbs.fobshanghai.com/forum-3-1.html", "groupName": "外贸业务交流" },
+        { "fid": "12", "name": "外贸财务", "url": "https://bbs.fobshanghai.com/forum-12-1.html", "groupName": "外贸业务交流" },
+        { "fid": "55", "name": "北美市场", "url": "https://bbs.fobshanghai.com/forum-55-1.html", "groupName": "外贸区域市场" },
+        { "fid": "54", "name": "欧洲市场", "url": "https://bbs.fobshanghai.com/forum-54-1.html", "groupName": "外贸区域市场" },
+        { "fid": "52", "name": "亚洲市场", "url": "https://bbs.fobshanghai.com/forum-52-1.html", "groupName": "外贸区域市场" },
+        { "fid": "24", "name": "纺织服装", "url": "https://bbs.fobshanghai.com/forum-24-1.html", "groupName": "外贸行业交流" },
+        { "fid": "13", "name": "消费电子", "url": "https://bbs.fobshanghai.com/forum-13-1.html", "groupName": "外贸行业交流" },
+        { "fid": "90", "name": "福步新人", "url": "https://bbs.fobshanghai.com/forum-90-1.html", "groupName": "本月推荐" },
+        { "fid": "126", "name": "外贸招聘求职", "url": "https://bbs.fobshanghai.com/forum-126-1.html", "groupName": "本月推荐" }
+      ]
     },
     {
       "domain": "bbs.chiphell.com",
@@ -18,4 +37,3 @@
     }
   ]
 }
-

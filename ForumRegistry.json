@@ -1,7 +1,87 @@
 {
-  "version": 2,
+  "version": 6,
   "updated": "2026-05-16",
+  "description": "通用论坛配置文件 - 仅包含已获取板块的论坛",
   "forums": [
+    {
+      "domain": "bbs.hupu.com",
+      "name": "虎扑社区",
+      "system": "custom",
+      "encoding": "utf-8",
+      "baseUrl": "https://bbs.hupu.com/",
+      "renderMode": "webview",
+      "forums": [
+        { "fid": "bxj", "name": "步行街", "url": "https://bbs.hupu.com/bxj", "groupName": "热门" },
+        { "fid": "nba", "name": "NBA论坛", "url": "https://bbs.hupu.com/nba", "groupName": "体育" },
+        { "fid": "cba", "name": "CBA论坛", "url": "https://bbs.hupu.com/cba", "groupName": "体育" },
+        { "fid": "soccer", "name": "足球论坛", "url": "https://bbs.hupu.com/soccer", "groupName": "体育" },
+        { "fid": "esports", "name": "电竞区", "url": "https://bbs.hupu.com/esports", "groupName": "电竞" }
+      ]
+    },
+    {
+      "domain": "bbs.csdn.net",
+      "name": "CSDN论坛",
+      "system": "custom",
+      "encoding": "utf-8",
+      "baseUrl": "https://bbs.csdn.net/",
+      "renderMode": "webview",
+      "forums": [
+        { "fid": "CSharp", "name": "C#社区", "url": "https://bbs.csdn.net/forums/CSharp", "groupName": "编程语言" },
+        { "fid": "python_learners", "name": "Python社区", "url": "https://bbs.csdn.net/forums/python_learners", "groupName": "编程语言" },
+        { "fid": "Java", "name": "Java社区", "url": "https://bbs.csdn.net/forums/Java", "groupName": "编程语言" },
+        { "fid": "Qt", "name": "Qt社区", "url": "https://bbs.csdn.net/forums/Qt", "groupName": "框架" },
+        { "fid": "Embedded_SCM", "name": "单片机/工控社区", "url": "https://bbs.csdn.net/forums/Embedded_SCM", "groupName": "硬件" }
+      ]
+    },
+    {
+      "domain": "www.v2ex.com",
+      "name": "V2EX",
+      "system": "custom",
+      "encoding": "utf-8",
+      "baseUrl": "https://www.v2ex.com/",
+      "renderMode": "webview",
+      "forums": [
+        { "fid": "qna", "name": "问与答", "url": "https://www.v2ex.com/go/qna", "groupName": "综合" },
+        { "fid": "share", "name": "分享创造", "url": "https://www.v2ex.com/go/share", "groupName": "综合" },
+        { "fid": "tech", "name": "技术", "url": "https://www.v2ex.com/go/tech", "groupName": "技术" },
+        { "fid": "programmer", "name": "程序员", "url": "https://www.v2ex.com/go/programmer", "groupName": "职业" },
+        { "fid": "jobs", "name": "酷工作", "url": "https://www.v2ex.com/go/jobs", "groupName": "职业" },
+        { "fid": "apple", "name": "Apple", "url": "https://www.v2ex.com/go/apple", "groupName": "数码" },
+        { "fid": "android", "name": "Android", "url": "https://www.v2ex.com/go/android", "groupName": "数码" }
+      ]
+    },
+    {
+      "domain": "bbs.kanxue.com",
+      "name": "看雪安全论坛",
+      "system": "custom",
+      "encoding": "utf-8",
+      "baseUrl": "https://bbs.kanxue.com/",
+      "renderMode": "webview",
+      "forums": [
+        { "fid": "4", "name": "逆向工程", "url": "https://bbs.kanxue.com/forum-4.htm", "groupName": "PC安全" },
+        { "fid": "161", "name": "Android安全", "url": "https://bbs.kanxue.com/forum-161.htm", "groupName": "移动安全" },
+        { "fid": "37", "name": "CTF对抗", "url": "https://bbs.kanxue.com/forum-37.htm", "groupName": "CTF竞技" }
+      ]
+    },
+    {
+      "domain": "www.52pojie.cn",
+      "name": "吾爱破解",
+      "system": "discuz_x",
+      "encoding": "gbk",
+      "baseUrl": "https://www.52pojie.cn/",
+      "searchUrl": "https://www.52pojie.cn/search.php?mod=forum",
+      "messagesUrl": "https://www.52pojie.cn/home.php?mod=space&do=pm",
+      "myThreadsUrl": "https://www.52pojie.cn/home.php?mod=space&do=thread&view=me",
+      "myRepliesUrl": "https://www.52pojie.cn/home.php?mod=space&do=thread&view=me&type=reply",
+      "favoritesUrl": "https://www.52pojie.cn/home.php?mod=space&do=favorite",
+      "forums": [
+        { "fid": "2", "name": "原创发布区", "url": "https://www.52pojie.cn/forum-2-1.html", "groupName": "核心区" },
+        { "fid": "5", "name": "脱壳破解区", "url": "https://www.52pojie.cn/forum-5-1.html", "groupName": "核心区" },
+        { "fid": "65", "name": "移动安全区", "url": "https://www.52pojie.cn/forum-65-1.html", "groupName": "核心区" },
+        { "fid": "16", "name": "精品软件区", "url": "https://www.52pojie.cn/forum-16-1.html", "groupName": "资源" },
+        { "fid": "8", "name": "悬赏问答区", "url": "https://www.52pojie.cn/forum-8-1.html", "groupName": "互动" }
+      ]
+    },
     {
       "domain": "bbs.fobshanghai.com",
       "name": "福步外贸论坛",
@@ -16,49 +96,258 @@
       "forums": [
         { "fid": "2", "name": "出口交流", "url": "https://bbs.fobshanghai.com/forum-2-1.html", "groupName": "外贸业务" },
         { "fid": "5", "name": "外贸单证", "url": "https://bbs.fobshanghai.com/forum-5-1.html", "groupName": "外贸业务" },
-        { "fid": "8", "name": "报关报检", "url": "https://bbs.fobshanghai.com/forum-8-1.html", "groupName": "外贸业务" },
         { "fid": "3", "name": "外贸SOHO", "url": "https://bbs.fobshanghai.com/forum-3-1.html", "groupName": "外贸业务" },
-        { "fid": "7", "name": "一起来创业", "url": "https://bbs.fobshanghai.com/forum-7-1.html", "groupName": "外贸业务" },
-        { "fid": "64", "name": "采购俱乐部", "url": "https://bbs.fobshanghai.com/forum-64-1.html", "groupName": "外贸业务" },
-        { "fid": "146", "name": "外贸验货", "url": "https://bbs.fobshanghai.com/forum-146-1.html", "groupName": "外贸业务" },
-        { "fid": "12", "name": "外贸财务", "url": "https://bbs.fobshanghai.com/forum-12-1.html", "groupName": "外贸业务" },
-        { "fid": "194", "name": "贸易融资", "url": "https://bbs.fobshanghai.com/forum-194-1.html", "groupName": "外贸业务" },
-        { "fid": "70", "name": "外贸开发信", "url": "https://bbs.fobshanghai.com/forum-70-1.html", "groupName": "外贸业务" },
-        { "fid": "112", "name": "出口基础知识", "url": "https://bbs.fobshanghai.com/forum-112-1.html", "groupName": "外贸业务" },
-        { "fid": "87", "name": "埃及CARGOX", "url": "https://bbs.fobshanghai.com/forum-87-1.html", "groupName": "外贸业务" },
-        { "fid": "125", "name": "人民币结算", "url": "https://bbs.fobshanghai.com/forum-125-1.html", "groupName": "外贸业务" },
-        { "fid": "55", "name": "北美市场", "url": "https://bbs.fobshanghai.com/forum-55-1.html", "groupName": "区域市场" },
-        { "fid": "54", "name": "欧洲市场", "url": "https://bbs.fobshanghai.com/forum-54-1.html", "groupName": "区域市场" },
-        { "fid": "52", "name": "亚洲市场", "url": "https://bbs.fobshanghai.com/forum-52-1.html", "groupName": "区域市场" },
-        { "fid": "53", "name": "澳新市场", "url": "https://bbs.fobshanghai.com/forum-53-1.html", "groupName": "区域市场" },
-        { "fid": "134", "name": "独联体市场", "url": "https://bbs.fobshanghai.com/forum-134-1.html", "groupName": "区域市场" },
-        { "fid": "133", "name": "拉美市场", "url": "https://bbs.fobshanghai.com/forum-133-1.html", "groupName": "区域市场" },
-        { "fid": "135", "name": "中东市场", "url": "https://bbs.fobshanghai.com/forum-135-1.html", "groupName": "区域市场" },
-        { "fid": "51", "name": "非洲市场", "url": "https://bbs.fobshanghai.com/forum-51-1.html", "groupName": "区域市场" },
-        { "fid": "34", "name": "海外华商", "url": "https://bbs.fobshanghai.com/forum-34-1.html", "groupName": "区域市场" },
-        { "fid": "6", "name": "进口交流", "url": "https://bbs.fobshanghai.com/forum-6-1.html", "groupName": "进口" },
-        { "fid": "163", "name": "进口食品", "url": "https://bbs.fobshanghai.com/forum-163-1.html", "groupName": "进口" },
-        { "fid": "141", "name": "跨境电商", "url": "https://bbs.fobshanghai.com/forum-141-1.html", "groupName": "电商" },
-        { "fid": "208", "name": "Amazon", "url": "https://bbs.fobshanghai.com/forum-208-1.html", "groupName": "电商" },
-        { "fid": "222", "name": "速卖通", "url": "https://bbs.fobshanghai.com/forum-222-1.html", "groupName": "电商" },
-        { "fid": "98", "name": "eBay", "url": "https://bbs.fobshanghai.com/forum-98-1.html", "groupName": "电商" },
-        { "fid": "150", "name": "AI外贸应用", "url": "https://bbs.fobshanghai.com/forum-150-1.html", "groupName": "电商" },
-        { "fid": "11", "name": "物流论坛", "url": "https://bbs.fobshanghai.com/forum-11-1.html", "groupName": "物流" },
-        { "fid": "161", "name": "国际快递", "url": "https://bbs.fobshanghai.com/forum-161-1.html", "groupName": "物流" },
-        { "fid": "106", "name": "空运专区", "url": "https://bbs.fobshanghai.com/forum-106-1.html", "groupName": "物流" },
-        { "fid": "113", "name": "离岸公司", "url": "https://bbs.fobshanghai.com/forum-113-1.html", "groupName": "服务" },
-        { "fid": "60", "name": "出口认证", "url": "https://bbs.fobshanghai.com/forum-60-1.html", "groupName": "服务" },
-        { "fid": "166", "name": "外贸代理", "url": "https://bbs.fobshanghai.com/forum-166-1.html", "groupName": "服务" },
-        { "fid": "158", "name": "外贸律师", "url": "https://bbs.fobshanghai.com/forum-158-1.html", "groupName": "服务" },
-        { "fid": "16", "name": "外贸展会", "url": "https://bbs.fobshanghai.com/forum-16-1.html", "groupName": "服务" },
-        { "fid": "92", "name": "广交会", "url": "https://bbs.fobshanghai.com/forum-92-1.html", "groupName": "服务" },
-        { "fid": "47", "name": "外贸英语", "url": "https://bbs.fobshanghai.com/forum-47-1.html", "groupName": "语言" },
-        { "fid": "49", "name": "外贸小语种", "url": "https://bbs.fobshanghai.com/forum-49-1.html", "groupName": "语言" },
-        { "fid": "10", "name": "外贸心情", "url": "https://bbs.fobshanghai.com/forum-10-1.html", "groupName": "生活" },
-        { "fid": "15", "name": "外贸职场", "url": "https://bbs.fobshanghai.com/forum-15-1.html", "groupName": "生活" },
-        { "fid": "126", "name": "外贸招聘求职", "url": "https://bbs.fobshanghai.com/forum-126-1.html", "groupName": "生活" },
-        { "fid": "90", "name": "福步新人", "url": "https://bbs.fobshanghai.com/forum-90-1.html", "groupName": "生活" },
-        { "fid": "122", "name": "懒人外贸开发工具", "url": "https://bbs.fobshanghai.com/forum-122-1.html", "groupName": "工具" }
+        { "fid": "141", "name": "跨境电商", "url": "https://bbs.fobshanghai.com/forum-141-1.html", "groupName": "电商" }
       ]
-  ]
+    },
+    {
+      "domain": "bbs.voc.com.cn",
+      "name": "华声论坛",
+      "system": "discuz",
+      "encoding": "gbk",
+      "baseUrl": "https://bbs.voc.com.cn/",
+      "forums": [
+        { "fid": "50", "name": "辣眼新闻", "url": "https://bbs.voc.com.cn/forum-50-1.html", "groupName": "新闻" },
+        { "fid": "2", "name": "华声杂谈", "url": "https://bbs.voc.com.cn/forum-2-1.html", "groupName": "综合" }
+      ]
+    },
+    {
+      "domain": "bbs.kaoyan.com",
+      "name": "考研论坛",
+      "system": "discuz_x",
+      "encoding": "utf-8",
+      "baseUrl": "https://bbs.kaoyan.com/",
+      "searchUrl": "https://bbs.kaoyan.com/search.php?mod=forum",
+      "messagesUrl": "https://bbs.kaoyan.com/home.php?mod=space&do=pm",
+      "myThreadsUrl": "https://bbs.kaoyan.com/home.php?mod=space&do=thread&view=me",
+      "myRepliesUrl": "https://bbs.kaoyan.com/home.php?mod=space&do=thread&view=me&type=reply",
+      "favoritesUrl": "https://bbs.kaoyan.com/home.php?mod=space&do=favorite",
+      "forums": [
+        { "fid": "172", "name": "考研公共课", "url": "https://bbs.kaoyan.com/forum-172-1.html", "groupName": "公共课" },
+        { "fid": "247", "name": "北京考研院校", "url": "https://bbs.kaoyan.com/forum-247-1.html", "groupName": "地区院校" },
+        { "fid": "249", "name": "上海考研院校", "url": "https://bbs.kaoyan.com/forum-249-1.html", "groupName": "地区院校" }
+      ]
+    },
+    {
+      "domain": "bbs.21ic.com",
+      "name": "21ic电子技术论坛",
+      "system": "discuz_x",
+      "encoding": "utf-8",
+      "baseUrl": "https://bbs.21ic.com/",
+      "searchUrl": "https://bbs.21ic.com/search.php?mod=forum",
+      "messagesUrl": "https://bbs.21ic.com/home.php?mod=space&do=pm",
+      "myThreadsUrl": "https://bbs.21ic.com/home.php?mod=space&do=thread&view=me",
+      "myRepliesUrl": "https://bbs.21ic.com/home.php?mod=space&do=thread&view=me&type=reply",
+      "favoritesUrl": "https://bbs.21ic.com/home.php?mod=space&do=favorite",
+      "forums": [
+        { "fid": "6", "name": "技术交流", "url": "https://bbs.21ic.com/iclist-6-1.html", "groupName": "综合技术" },
+        { "fid": "2", "name": "模拟技术", "url": "https://bbs.21ic.com/iclist-2-1.html", "groupName": "综合技术" },
+        { "fid": "11", "name": "侃单片机", "url": "https://bbs.21ic.com/iclist-11-1.html", "groupName": "综合技术" }
+      ]
+    },
+    {
+      "domain": "hostloc.com",
+      "name": "全球主机交流论坛",
+      "system": "discuz_x",
+      "encoding": "utf-8",
+      "baseUrl": "https://hostloc.com/",
+      "searchUrl": "https://hostloc.com/search.php?mod=forum",
+      "messagesUrl": "https://hostloc.com/home.php?mod=space&do=pm",
+      "myThreadsUrl": "https://hostloc.com/home.php?mod=space&do=thread&view=me",
+      "myRepliesUrl": "https://hostloc.com/home.php?mod=space&do=thread&view=me&type=reply",
+      "favoritesUrl": "https://hostloc.com/home.php?mod=space&do=favorite",
+      "forums": [
+        { "fid": "45", "name": "美国VPS综合讨论", "url": "https://hostloc.com/forum-45-1.html", "groupName": "主机综合" },
+        { "fid": "86", "name": "干货茶馆", "url": "https://hostloc.com/forum-86-1.html", "groupName": "主机综合" }
+      ]
+    },
+    {
+      "domain": "www.saraba1st.com",
+      "name": "Stage1st",
+      "system": "discuz_x",
+      "encoding": "utf-8",
+      "baseUrl": "https://www.saraba1st.com/2b/",
+      "searchUrl": "https://www.saraba1st.com/2b/search.php?mod=forum",
+      "messagesUrl": "https://www.saraba1st.com/2b/home.php?mod=space&do=pm",
+      "myThreadsUrl": "https://www.saraba1st.com/2b/home.php?mod=space&do=thread&view=me",
+      "myRepliesUrl": "https://www.saraba1st.com/2b/home.php?mod=space&do=thread&view=me&type=reply",
+      "favoritesUrl": "https://www.saraba1st.com/2b/home.php?mod=space&do=favorite",
+      "forums": [
+        { "fid": "4", "name": "游戏论坛", "url": "https://www.saraba1st.com/2b/forum-4-1.html", "groupName": "主论坛" },
+        { "fid": "6", "name": "动漫论坛", "url": "https://www.saraba1st.com/2b/forum-6-1.html", "groupName": "主论坛" },
+        { "fid": "75", "name": "卓明谷", "url": "https://www.saraba1st.com/2b/forum-75-1.html", "groupName": "主论坛" }
+      ]
+    },
+    {
+      "domain": "bbs.ichuanglan.com",
+      "name": "创蓝论坛",
+      "system": "discuz_x",
+      "encoding": "gbk",
+      "baseUrl": "https://bbs.ichuanglan.com/",
+      "searchUrl": "https://bbs.ichuanglan.com/search.php?mod=forum",
+      "messagesUrl": "https://bbs.ichuanglan.com/home.php?mod=space&do=pm",
+      "myThreadsUrl": "https://bbs.ichuanglan.com/home.php?mod=space&do=thread&view=me",
+      "myRepliesUrl": "https://bbs.ichuanglan.com/home.php?mod=space&do=thread&view=me&type=reply",
+      "favoritesUrl": "https://bbs.ichuanglan.com/home.php?mod=space&do=favorite",
+      "forums": [
+        { "fid": "2", "name": "账号注册", "url": "https://bbs.ichuanglan.com/forum-2-1.html", "groupName": "亚马逊平台" },
+        { "fid": "38", "name": "后台操作", "url": "https://bbs.ichuanglan.com/forum-38-1.html", "groupName": "亚马逊平台" },
+        { "fid": "87", "name": "推广交流", "url": "https://bbs.ichuanglan.com/forum-87-1.html", "groupName": "亚马逊平台" }
+      ]
+    },
+    {
+      "domain": "www.51hei.com",
+      "name": "51黑电子论坛",
+      "system": "discuz_x",
+      "encoding": "gbk",
+      "baseUrl": "https://www.51hei.com/bbs/",
+      "searchUrl": "https://www.51hei.com/bbs/search.php?mod=forum",
+      "messagesUrl": "https://www.51hei.com/bbs/home.php?mod=space&do=pm",
+      "myThreadsUrl": "https://www.51hei.com/bbs/home.php?mod=space&do=thread&view=me",
+      "myRepliesUrl": "https://www.51hei.com/bbs/home.php?mod=space&do=thread&view=me&type=reply",
+      "favoritesUrl": "https://www.51hei.com/bbs/home.php?mod=space&do=favorite",
+      "forums": [
+        { "fid": "2", "name": "51单片机", "url": "https://www.51hei.com/bbs/forum-2-1.html", "groupName": "嵌入式" },
+        { "fid": "12", "name": "STM32/8", "url": "https://www.51hei.com/bbs/forum-12-1.html", "groupName": "嵌入式" },
+        { "fid": "13", "name": "FPGA/CPLD", "url": "https://www.51hei.com/bbs/forum-13-1.html", "groupName": "嵌入式" }
+      ]
+    },
+    {
+      "domain": "www.right.com.cn",
+      "name": "恩山无线论坛",
+      "system": "discuz_x",
+      "encoding": "gbk",
+      "baseUrl": "https://www.right.com.cn/forum/",
+      "searchUrl": "https://www.right.com.cn/forum/search.php?mod=forum",
+      "messagesUrl": "https://www.right.com.cn/forum/home.php?mod=space&do=pm",
+      "myThreadsUrl": "https://www.right.com.cn/forum/home.php?mod=space&do=thread&view=me",
+      "myRepliesUrl": "https://www.right.com.cn/forum/home.php?mod=space&do=thread&view=me&type=reply",
+      "favoritesUrl": "https://www.right.com.cn/forum/home.php?mod=space&do=favorite",
+      "forums": [
+        { "fid": "171", "name": "小米无线路由器", "url": "https://www.right.com.cn/forum/forum-171-1.html", "groupName": "品牌路由器" },
+        { "fid": "178", "name": "华硕无线路由器", "url": "https://www.right.com.cn/forum/forum-178-1.html", "groupName": "品牌路由器" },
+        { "fid": "78", "name": "光猫/adsl/cable无线一体机", "url": "https://www.right.com.cn/forum/forum-78-1.html", "groupName": "运营商设备" }
+      ]
+    },
+    {
+      "domain": "bbs.pinggu.org",
+      "name": "经管之家",
+      "system": "discuz_x",
+      "encoding": "gbk",
+      "baseUrl": "https://bbs.pinggu.org/",
+      "searchUrl": "https://bbs.pinggu.org/search.php?mod=forum",
+      "messagesUrl": "https://bbs.pinggu.org/home.php?mod=space&do=pm",
+      "myThreadsUrl": "https://bbs.pinggu.org/home.php?mod=space&do=thread&view=me",
+      "myRepliesUrl": "https://bbs.pinggu.org/home.php?mod=space&do=thread&view=me&type=reply",
+      "favoritesUrl": "https://bbs.pinggu.org/home.php?mod=space&do=favorite",
+      "forums": [
+        { "fid": "economics", "name": "经济学论坛", "url": "https://bbs.pinggu.org/forum-economics-1.html", "groupName": "学术" },
+        { "fid": "management", "name": "管理学论坛", "url": "https://bbs.pinggu.org/forum-management-1.html", "groupName": "学术" }
+      ]
+    },
+    {
+      "domain": "muchong.com",
+      "name": "小木虫",
+      "system": "discuz_x",
+      "encoding": "gbk",
+      "baseUrl": "https://muchong.com/",
+      "searchUrl": "https://muchong.com/search.php?mod=forum",
+      "messagesUrl": "https://muchong.com/home.php?mod=space&do=pm",
+      "myThreadsUrl": "https://muchong.com/home.php?mod=space&do=thread&view=me",
+      "myRepliesUrl": "https://muchong.com/home.php?mod=space&do=thread&view=me&type=reply",
+      "favoritesUrl": "https://muchong.com/home.php?mod=space&do=favorite",
+      "forums": [
+        { "fid": "1", "name": "学术科研", "url": "https://muchong.com/forum-1-1.html", "groupName": "学术" },
+        { "fid": "2", "name": "论文投稿", "url": "https://muchong.com/forum-2-1.html", "groupName": "学术" }
+      ]
+    },
+    {
+      "domain": "bbs.3dmgame.com",
+      "name": "3DMGAME论坛",
+      "system": "discuz_x",
+      "encoding": "utf-8",
+      "baseUrl": "https://bbs.3dmgame.com/",
+      "searchUrl": "https://bbs.3dmgame.com/search.php?mod=forum",
+      "messagesUrl": "https://bbs.3dmgame.com/home.php?mod=space&do=pm",
+      "myThreadsUrl": "https://bbs.3dmgame.com/home.php?mod=space&do=thread&view=me",
+      "myRepliesUrl": "https://bbs.3dmgame.com/home.php?mod=space&do=thread&view=me&type=reply",
+      "favoritesUrl": "https://bbs.3dmgame.com/home.php?mod=space&do=favorite",
+      "forums": [
+        { "fid": "news", "name": "游戏资讯", "url": "https://bbs.3dmgame.com/forum-news-1.html", "groupName": "游戏" },
+        { "fid": "download", "name": "游戏下载", "url": "https://bbs.3dmgame.com/forum-download-1.html", "groupName": "游戏" }
+      ]
+    },
+    {
+      "domain": "bbs.gamersky.com",
+      "name": "游民星空论坛",
+      "system": "discuz_x",
+      "encoding": "utf-8",
+      "baseUrl": "https://bbs.gamersky.com/",
+      "searchUrl": "https://bbs.gamersky.com/search.php?mod=forum",
+      "messagesUrl": "https://bbs.gamersky.com/home.php?mod=space&do=pm",
+      "myThreadsUrl": "https://bbs.gamersky.com/home.php?mod=space&do=thread&view=me",
+      "myRepliesUrl": "https://bbs.gamersky.com/home.php?mod=space&do=thread&view=me&type=reply",
+      "favoritesUrl": "https://bbs.gamersky.com/home.php?mod=space&do=favorite",
+      "forums": [
+        { "fid": "game", "name": "游戏讨论", "url": "https://bbs.gamersky.com/forum-game-1.html", "groupName": "游戏" }
+      ]
+    },
+    {
+      "domain": "game.ali213.net",
+      "name": "游侠网论坛",
+      "system": "discuz_x",
+      "encoding": "utf-8",
+      "baseUrl": "https://game.ali213.net/",
+      "searchUrl": "https://game.ali213.net/search.php?mod=forum",
+      "messagesUrl": "https://game.ali213.net/home.php?mod=space&do=pm",
+      "myThreadsUrl": "https://game.ali213.net/home.php?mod=space&do=thread&view=me",
+      "myRepliesUrl": "https://game.ali213.net/home.php?mod=space&do=thread&view=me&type=reply",
+      "favoritesUrl": "https://game.ali213.net/home.php?mod=space&do=favorite",
+      "forums": [
+        { "fid": "guide", "name": "游戏攻略", "url": "https://game.ali213.net/forum-guide-1.html", "groupName": "游戏" }
+      ]
+    },
+    {
+      "domain": "bbs.a9vg.com",
+      "name": "A9VG电玩部落",
+      "system": "discuz_x",
+      "encoding": "utf-8",
+      "baseUrl": "https://bbs.a9vg.com/",
+      "searchUrl": "https://bbs.a9vg.com/search.php?mod=forum",
+      "messagesUrl": "https://bbs.a9vg.com/home.php?mod=space&do=pm",
+      "myThreadsUrl": "https://bbs.a9vg.com/home.php?mod=space&do=thread&view=me",
+      "myRepliesUrl": "https://bbs.a9vg.com/home.php?mod=space&do=thread&view=me&type=reply",
+      "favoritesUrl": "https://bbs.a9vg.com/home.php?mod=space&do=favorite",
+      "forums": [
+        { "fid": "console", "name": "主机游戏", "url": "https://bbs.a9vg.com/forum-console-1.html", "groupName": "游戏" }
+      ]
+    },
+    {
+      "domain": "bbs.dmzj.com",
+      "name": "动漫之家论坛",
+      "system": "discuz_x",
+      "encoding": "utf-8",
+      "baseUrl": "https://bbs.dmzj.com/",
+      "searchUrl": "https://bbs.dmzj.com/search.php?mod=forum",
+      "messagesUrl": "https://bbs.dmzj.com/home.php?mod=space&do=pm",
+      "myThreadsUrl": "https://bbs.dmzj.com/home.php?mod=space&do=thread&view=me",
+      "myRepliesUrl": "https://bbs.dmzj.com/home.php?mod=space&do=thread&view=me&type=reply",
+      "favoritesUrl": "https://bbs.dmzj.com/home.php?mod=space&do=favorite",
+      "forums": [
+        { "fid": "anime", "name": "动漫讨论", "url": "https://bbs.dmzj.com/forum-anime-1.html", "groupName": "动漫" }
+      ]
+    }
+  ],
+  "statistics": {
+    "total": 21,
+    "by_system": {
+      "discuz": 3,
+      "discuz_x": 14,
+      "custom": 4
+    },
+    "by_encoding": {
+      "utf-8": 12,
+      "gbk": 9
+    }
+  }
 }

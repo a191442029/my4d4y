@@ -117,9 +117,17 @@
       "system": "discuz",
       "encoding": "gbk",
       "baseUrl": "https://www.chiphell.com/forum.php",
+      "searchUrl": "https://www.chiphell.com/search.php?mod=forum&mobile=2",
+      "messagesUrl": "https://www.chiphell.com/home.php?mod=space&do=pm&mobile=2",
+      "myThreadsUrl": "https://www.chiphell.com/home.php?mod=space&uid=14621&do=thread&view=me&mobile=2",
+      "myRepliesUrl": "https://www.chiphell.com/home.php?mod=space&do=thread&view=me&type=reply&uid=14621&from=space&mobile=2",
+      "favoritesUrl": "https://www.chiphell.com/home.php?mod=space&do=favorite&type=all&mobile=2",
       "forums": [
         { "fid": "312", "name": "水世界", "url": "https://www.chiphell.com/forum-312-1.html", "groupName": "水世界" },
-        { "fid": "2", "name": "华玩家出售", "url": "https://www.chiphell.com/forum-26-1.html", "groupName": "玩家出售" }
+        { "fid": "319", "name": "原创分享", "url": "https://www.chiphell.com/forum-319-1.html", "groupName": "原创分享" },
+        { "fid": "322", "name": "家居", "url": "https://www.chiphell.com/forum-322-1.html", "groupName": "家居" },
+        { "fid": "146", "name": "电脑讨论", "url": "https://www.chiphell.com/forum-146-1.html", "groupName": "电脑讨论" },
+        { "fid": "26", "name": "玩家出售", "url": "https://www.chiphell.com/forum-26-1.html", "groupName": "玩家出售" }
       ]
     },
     {

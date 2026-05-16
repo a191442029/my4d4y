@@ -111,6 +111,17 @@
         { "fid": "2", "name": "华声杂谈", "url": "https://bbs.voc.com.cn/forum-2-1.html", "groupName": "综合" }
       ]
     },
+      {
+      "domain": "www.chiphell.com/forum.php",
+      "name": "CHIPHELL",
+      "system": "discuz",
+      "encoding": "gbk",
+      "baseUrl": "https://www.chiphell.com/forum.php",
+      "forums": [
+        { "fid": "312", "name": "水世界", "url": "https://www.chiphell.com/forum-312-1.html", "groupName": "水世界" },
+        { "fid": "2", "name": "华玩家出售", "url": "https://www.chiphell.com/forum-26-1.html", "groupName": "玩家出售" }
+      ]
+    },
     {
       "domain": "bbs.kaoyan.com",
       "name": "考研论坛",
